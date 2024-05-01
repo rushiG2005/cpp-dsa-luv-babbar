@@ -1,0 +1,16 @@
+#include<iostream>
+using namespace std ;
+
+int main ()
+{
+
+    int budget ;
+    cout<< "enter your budget:"<< endl;
+
+    cin>>budget;
+
+    if (budget > 200000)
+    cout << "Buy scorpio" << endl;   
+    
+     return 0;
+}
